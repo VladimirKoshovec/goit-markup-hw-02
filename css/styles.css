@@ -1,6 +1,54 @@
-
+/*  Google fonts
     font-family: 'Raleway',
     sans-serif;
 
     font-family: 'Roboto',
     sans-serif;
+*/
+
+/* Main colors
+Logo #2196F3 #000000
+*/
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    font-weight: 400;
+    
+}
+
+.nav-logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.nav-logo span{
+    color:#2196F3
+}
+
+.nav-main,
+.nav-adres {
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav-main a,
+.nav-adres a{
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-main a:hover, .nav-adres a:hover,
+.nav-main a:focus, .nav-adres a:focus{
+    color: #2196F3;
+}
