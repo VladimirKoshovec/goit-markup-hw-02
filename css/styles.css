@@ -6,23 +6,25 @@
     sans-serif;
 */
 
-/* Main colors
-Logo #2196F3 #000000
-*/
-
-
+/* Main colors*/
+:root{
+    --brandblack: #000000;
+    --blacknav: #212121;
+    --brandblue:#2196F3;
+    --brandgray: #757575;
+    --brandwhite:#FFFFFF;
+}
 
 body {
     font-family: Roboto, sans-serif;
-    color: #757575;
+    color: var(--brandgray);
     font-weight: 400;
-    
 }
 
 .nav-logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    color: #000000;
+    color: var(--brandblack);
     text-decoration: none;
     font-size: 26px;
     line-height: 31px;
@@ -30,7 +32,7 @@ body {
 }
 
 .nav-logo span{
-    color:#2196F3
+    color:var(--brandblue)
 }
 
 .nav-main,
@@ -39,10 +41,17 @@ body {
     list-style: none;
 }
 
-.nav-main a,
-.nav-adres a{
+.nav-main a{
     text-decoration: none;
-    color: #212121;
+    color: var(--blacknav);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-adres a {
+    text-decoration: none;
+    color: var(--brandgray);
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -50,5 +59,19 @@ body {
 
 .nav-main a:hover, .nav-adres a:hover,
 .nav-main a:focus, .nav-adres a:focus{
-    color: #2196F3;
+    color: var(--brandblue);
+}
+
+.nav-botom{
+    font-weight: 400;
+    list-style: none;
+}
+
+.nav-botom a{
+text-decoration: none;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--brandwhite);
 }
