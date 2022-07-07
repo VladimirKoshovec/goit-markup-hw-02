@@ -13,6 +13,9 @@
     --brandblue:#2196F3;
     --brandgray: #757575;
     --brandwhite:#FFFFFF;
+    --whiteop:rgba(255, 255, 255, 0.6);
+    --dbgcolorblack:#2F303A;
+    --dbgcolorgray:#F5F4FA;
 }
 
 body {
@@ -20,58 +23,140 @@ body {
     color: var(--brandgray);
     font-weight: 400;
 }
-
+/*all list decoration*/
+.listnone{
+    list-style: none;
+}
+/*site section h2 decoration*/
+.section-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--blacknav);
+}
+/*Logo*/
 .nav-logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
     color: var(--brandblack);
     text-decoration: none;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
 }
 
 .nav-logo span{
     color:var(--brandblue)
 }
 
+/*nav*/
 .nav-main,
 .nav-adres {
     font-weight: 500;
-    list-style: none;
 }
 
-.nav-main a{
+.nav-main .link{
     text-decoration: none;
     color: var(--blacknav);
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    line-height: 1.15;
+    
 }
 
-.nav-adres a {
+.nav-adres .link{
     text-decoration: none;
     color: var(--brandgray);
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    line-height: 1.15;
+    
 }
 
-.nav-main a:hover, .nav-adres a:hover,
-.nav-main a:focus, .nav-adres a:focus{
+.nav-main link:hover, .nav-adres link:hover,
+.nav-main link:focus, .nav-adres link:focus{
     color: var(--brandblue);
 }
+/*hero*/
+.hero{
+    color:var(--brandwhite);
+    background-color: var(--dbgcolorblack);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-button{
+    cursor: pointer;
+    background: var(--brandblue);
+    color: var(--brandwhite);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+}
+/*principles*/
+.principles-h{
+    color: var(--blacknav);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.principles-deskrp{
+    font-size: 14px;
+    line-height: 2;
+}
+/*specialization*/
 
-.nav-botom{
-    font-weight: 400;
-    list-style: none;
+/*tem*/
+.team{
+   background-color: var(--dbgcolorgray);
 }
 
-.nav-botom a{
-text-decoration: none;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    color: var(--blacknav);
+}
+.team-deskrp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+}
+
+/*sitefooter*/
+.sitefooter{
+    background-color: var(--dbgcolorblack);
+}
+
+/*footer logo*/
+.sitefooter-logo{
+font-family: Raleway, sans-serif;
+font-weight: 700;
 color: var(--brandwhite);
+text-decoration: none;
+font-size: 26px;
+line-height: 1.2;
+}
+
+.sitefooter-logo span {
+    color: var(--brandblue)
+}
+
+.footer-adr{
+text-decoration: none;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+color: var(--brandwhite);
+}
+
+.footer-link{
+text-decoration: none;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+color:var(--whiteop)
 }
