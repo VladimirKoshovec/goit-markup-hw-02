@@ -142,7 +142,7 @@ line-height: 1.2;
 }
 
 .sitefooter-logo span {
-    color: var(--brandblue)
+    color: var(--brandblue);
 }
 
 .footer-adr{
@@ -158,5 +158,5 @@ text-decoration: none;
 font-style: normal;
 font-size: 14px;
 line-height: 1.714;
-color:var(--whiteop)
+color:var(--whiteop);
 }
