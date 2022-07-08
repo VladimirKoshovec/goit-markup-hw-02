@@ -3,8 +3,7 @@
     sans-serif;
 
     font-family: 'Roboto',
-    sans-serif;
-*/
+    sans-serif;*/
 
 /* Main colors*/
 :root{
@@ -98,6 +97,10 @@ body {
     letter-spacing: 0.06em;
 }
 /*principles*/
+.principles h2{
+    display: none;
+}
+
 .principles-h{
     color: var(--blacknav);
     font-weight: 700;
@@ -137,6 +140,10 @@ body {
 
 
 /*portfolio*/
+.portfolio h1{
+    display: none;
+} 
+
 .portfolio-button {
     cursor: pointer;
     font-weight: 500;
