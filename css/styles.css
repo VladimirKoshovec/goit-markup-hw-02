@@ -26,7 +26,8 @@ body {
 .listnone{
     list-style: none;
 }
-/*site section h2 decoration*/
+
+/*all visible site section h2 decoration*/
 .section-h {
     font-weight: 700;
     font-size: 36px;
@@ -101,7 +102,7 @@ body {
     display: none;
 }
 
-.principles-h{
+.principles-head{
     color: var(--blacknav);
     font-weight: 700;
     font-size: 14px;
@@ -114,7 +115,6 @@ body {
     line-height: 2;
     letter-spacing: 0.03em;
 }
-/*specialization*/
 
 /*tem*/
 .team{
