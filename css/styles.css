@@ -154,15 +154,18 @@ body {
     background: var(--brandblue);
 }
 
+
+
 .portfolio h2{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: #212121;
     letter-spacing: 0.06em;
+    
 }
 
-portfolio p {
+.portfolio p{
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
